@@ -1,0 +1,53 @@
+.logo {
+     fill: yellow;
+     width: 95%;
+     display: block;
+     margin: 50px auto;
+}
+
+.logo:hover {
+  stroke: yellow;
+  fill: blue;
+}
+
+p {
+ font-family: arial;
+ font-size: 1em;
+ text-align: justify;
+}
+
+.laatste {
+  margin-bottom: 2em;
+}
+
+h1 {
+ font-family: arial;
+ font-size: 1.2em;
+ font-weight: bold;
+ margin-bottom: 2em;
+}
+
+img {
+ max-width: 70%;
+ margin-bottom: 1em;
+}
+@media all and (min-width: 980px) {
+
+html { font-size: 80%; }
+
+}
+
+@media all and (min-width: 1260px) {
+
+html {font-size: 100%;}
+
+}
+
+
+main {
+     column-width: 240px;
+     column-count: 2;
+     column-gap: 4em;
+     column-rule: 1px dotted #CCC;
+     margin: 4em;
+}
